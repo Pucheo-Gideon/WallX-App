@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { Box, Container } from "@mui/material";
+import WallXPage from "./WallXApp2/wallx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <WallXPage />
+    // <Container maxWidth={false} sx={{p:0}} disableGutters>
+
+    // </Container>
+    // <Box sx={{width: "1728px",height: "5448px", position:"relative", background: "FFFFFF"}}>
+    // </Box>
   );
 }
 
